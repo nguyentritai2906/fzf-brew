@@ -11,9 +11,9 @@ You can either use the convenient aliases or triggered completions.
 The following aliases are defined:
 
 * `fbi`: Fuzzy brew install
-* `fbui`: Fuzzy brew uninstall
+* `fbu`: Fuzzy brew uninstall
 * `fci`: Fuzzy cask install
-* `fcui`: Fuzzy cask uninstall
+* `fcu`: Fuzzy cask uninstall
 
 You can specify a search parameter, e.g., `fbi git` will start your search with `git`.
 
@@ -41,13 +41,13 @@ You can visit the homepage of the formula or cask using `ctrl-space`.
 #### `ohmyzsh`
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
-2. `git clone git@github.com:thirteen37/fzf-brew.git fzf-brew`
+2. `git clone git@github.com:nguyentritai2906/fzf-brew.git fzf-brew`
 3. Add `fzf-brew` to your `.zshrc` plugin list `plugins=(... fzf-brew)`
 
 #### `zgen` or `zgenom`
 
-Add `zgenom load thirteen37/fzf-brew` or `zgenom load thirteen37/fzf-brew` to your `.zshrc`
+Add `zgenom load nguyentritai2906/fzf-brew` or `zgenom load nguyentritai2906/fzf-brew` to your `.zshrc`
 
 #### `antigen`
 
-Add `antigen bundle thirteen37/fzf-brew` to your `.zshrc`
+Add `antigen bundle nguyentritai2906/fzf-brew` to your `.zshrc`
